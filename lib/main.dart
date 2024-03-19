@@ -108,9 +108,9 @@ class InfoScreen extends StatelessWidget {
   String _getCategory() {
     if (before >= 80 && before <= 130) {
       if (after < 180) {
-        return 'Normal (Adults with type 1 diabetes)';
+        return 'Normal (Adults with type 1 & 2 diabetes)';
       } else {
-        return 'Abnormal (Adults with type 1 diabetes)';
+        return 'Abnormal (Adults with type 1 & 2 diabetes)';
       }
     } else if (before >= 90 && before <= 130) {
       if (before >= 90 && before <= 130){
